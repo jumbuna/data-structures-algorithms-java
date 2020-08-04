@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad0b268c-9f81-4091-85e0-0fc2dd7d68ed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fdCuW9mGJjkYFpWiu7dNyXVdNC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="dsAlgJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jumbuna.algs.Main" />
+      <module name="dsAlgJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1167" height="202" key="GridCell.Tab.0.bottom" timestamp="1596562756499">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="985" height="241" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596560971814" />
+    <state width="1167" height="202" key="GridCell.Tab.0.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596562756499" />
+    <state width="1167" height="202" key="GridCell.Tab.0.center" timestamp="1596562756498">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="985" height="241" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596560971812" />
+    <state width="1167" height="202" key="GridCell.Tab.0.center/0.23.1280.714@0.23.1280.714" timestamp="1596562756498" />
+    <state width="1167" height="202" key="GridCell.Tab.0.left" timestamp="1596562756497">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="985" height="241" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596560971811" />
+    <state width="1167" height="202" key="GridCell.Tab.0.left/0.23.1280.714@0.23.1280.714" timestamp="1596562756497" />
+    <state width="1167" height="202" key="GridCell.Tab.0.right" timestamp="1596562756498">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="985" height="241" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596560971813" />
+    <state width="1167" height="202" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1596562756498" />
+    <state width="1167" height="231" key="GridCell.Tab.1.bottom" timestamp="1596541096898">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="1167" height="231" key="GridCell.Tab.1.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596541096898" />
+    <state width="1167" height="231" key="GridCell.Tab.1.center" timestamp="1596541096898">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="1167" height="231" key="GridCell.Tab.1.center/0.23.1280.714@0.23.1280.714" timestamp="1596541096898" />
+    <state width="1167" height="231" key="GridCell.Tab.1.left" timestamp="1596541096897">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="1167" height="231" key="GridCell.Tab.1.left/0.23.1280.714@0.23.1280.714" timestamp="1596541096897" />
+    <state width="1167" height="231" key="GridCell.Tab.1.right" timestamp="1596541096898">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state width="1167" height="231" key="GridCell.Tab.1.right/0.23.1280.714@0.23.1280.714" timestamp="1596541096898" />
+    <state x="228" y="261" key="Performance.Activity.Monitor" timestamp="1596539006005">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="261" key="Performance.Activity.Monitor/0.0.1280.800@0.0.1280.800" timestamp="1596539006005" />
+    <state x="191" y="23" width="937" height="714" key="SettingsEditor" timestamp="1596561416831">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state x="191" y="23" width="937" height="714" key="SettingsEditor/0.23.1280.714@0.23.1280.714" timestamp="1596561416831" />
+    <state x="294" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1596561459157">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state x="294" y="43" width="670" height="758" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1596561008358" />
+    <state x="294" y="61" width="670" height="676" key="search.everywhere.popup/0.23.1280.714@0.23.1280.714" timestamp="1596561459157" />
+  </component>
+</project>
