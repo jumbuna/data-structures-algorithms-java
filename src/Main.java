@@ -1,20 +1,23 @@
+import com.jumbuna.ds.HashMap;
 import com.jumbuna.ds.Queue;
 import com.jumbuna.ds.Stack;
 import com.jumbuna.ds.Vector;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        Vector<Integer> vector = new Vector<>();
-        vector.insert(10);
-        vector.insert(20);
-        vector.insert(30);
-        vector.insert(40);
-        vector.insert(50);
+        HashMap<String, Integer> map = new HashMap<>();
+        map.insert("jacob", 30);
+        map.insert("jacobo", 90);
+        map.insert("jacobu", 70);
+        map.insert("jacobi", 6);
+        map.insert("jacoba", 3);
+        map.insert("jacoba", 55);
 
-        for(int i = 0; i < vector.size(); i++) {
-            System.out.println(vector.elementAt(i));
+        map.remove("jacoba");
+
+        Vector<String> vec = map.keys();
+        for (int i = 0; i < vec.size(); i++) {
+            System.out.println(map.get(vec.elementAt(i)));
         }
     }
 }
