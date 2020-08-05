@@ -94,4 +94,10 @@ public class Vector<T> {
         threshold = (int) (capacity * loadFactor);
         array = (T[]) new Object[capacity];
     }
+
+    public void update(int i, T element) {
+        if(i < currentIndex) {
+            array[i] = element;
+        }
+    }
 }
