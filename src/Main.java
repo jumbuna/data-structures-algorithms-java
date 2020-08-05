@@ -1,23 +1,15 @@
+import com.jumbuna.algs.MergeSort;
 import com.jumbuna.ds.HashMap;
 import com.jumbuna.ds.Queue;
 import com.jumbuna.ds.Stack;
 import com.jumbuna.ds.Vector;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.insert("jacob", 30);
-        map.insert("jacobo", 90);
-        map.insert("jacobu", 70);
-        map.insert("jacobi", 6);
-        map.insert("jacoba", 3);
-        map.insert("jacoba", 55);
-
-        map.remove("jacoba");
-
-        Vector<String> vec = map.keys();
-        for (int i = 0; i < vec.size(); i++) {
-            System.out.println(map.get(vec.elementAt(i)));
-        }
+        Integer[] array = {5, 8, 2, 2, 5, 7, 0, 9, 15, 3, 22, 12, 13, 82, 61, 23};
+        MergeSort.mergeSort(array, 0, array.length-1);
+        System.out.println(Arrays.toString(array));
     }
 }
