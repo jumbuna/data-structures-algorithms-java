@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0b268c-9f81-4091-85e0-0fc2dd7d68ed" name="Default Changelist" comment="" />
+    <list default="true" id="ad0b268c-9f81-4091-85e0-0fc2dd7d68ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/AvlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/TraversalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsAlgJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsAlgJava/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +36,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fdCuW9mGJjkYFpWiu7dNyXVdNC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,13 +55,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.22183909" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.AvlTree">
+    <configuration name="AvlTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jumbuna.ds.bst.AvlTree" />
+      <module name="dsAlgJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="dsAlgJava" />
@@ -43,12 +86,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnbalancedBst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jumbuna.ds.bst.UnbalancedBst" />
+      <module name="dsAlgJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AvlTree" />
+        <item itemvalue="Application.UnbalancedBst" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad0b268c-9f81-4091-85e0-0fc2dd7d68ed" name="Default Changelist" comment="" />
+      <created>1596799162643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596799162643</updated>
+      <workItem from="1596799183877" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="133" y="30" key="#Plugins" timestamp="1596626643923">
@@ -59,53 +136,63 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="326" y="90" key="#com.intellij.ide.util.MemberChooser/0.23.1280.716@0.23.1280.716" timestamp="1596616962309" />
-    <state width="879" height="265" key="GridCell.Tab.0.bottom" timestamp="1596647522663">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1259" height="134" key="GridCell.Tab.0.bottom" timestamp="1596808084619">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="985" height="241" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596560971814" />
+    <state width="1259" height="134" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596808084619" />
+    <state width="1259" height="134" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596808061707" />
     <state width="910" height="219" key="GridCell.Tab.0.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596569657388" />
     <state width="879" height="265" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1596647522663" />
-    <state width="879" height="265" key="GridCell.Tab.0.center" timestamp="1596647522662">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1259" height="134" key="GridCell.Tab.0.center" timestamp="1596808084617">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="985" height="241" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596560971812" />
+    <state width="1259" height="134" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596808084617" />
+    <state width="1259" height="134" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596808061705" />
     <state width="910" height="219" key="GridCell.Tab.0.center/0.23.1280.714@0.23.1280.714" timestamp="1596569657387" />
     <state width="879" height="265" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
-    <state width="879" height="265" key="GridCell.Tab.0.left" timestamp="1596647522662">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1259" height="134" key="GridCell.Tab.0.left" timestamp="1596808084617">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="985" height="241" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596560971811" />
+    <state width="1259" height="134" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596808084617" />
+    <state width="1259" height="134" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596808061705" />
     <state width="910" height="219" key="GridCell.Tab.0.left/0.23.1280.714@0.23.1280.714" timestamp="1596569657386" />
     <state width="879" height="265" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
-    <state width="879" height="265" key="GridCell.Tab.0.right" timestamp="1596647522662">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1259" height="134" key="GridCell.Tab.0.right" timestamp="1596808084618">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="985" height="241" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596560971813" />
+    <state width="1259" height="134" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596808084618" />
+    <state width="1259" height="134" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596808061706" />
     <state width="910" height="219" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1596569657387" />
     <state width="879" height="265" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
-    <state width="910" height="219" key="GridCell.Tab.1.bottom" timestamp="1596569657391">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state width="1239" height="297" key="GridCell.Tab.1.bottom" timestamp="1596800226139">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1239" height="297" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596800226139" />
     <state width="910" height="219" key="GridCell.Tab.1.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596569657391" />
-    <state width="910" height="219" key="GridCell.Tab.1.center" timestamp="1596569657389">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state width="1239" height="297" key="GridCell.Tab.1.center" timestamp="1596800226138">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1239" height="297" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1596800226138" />
     <state width="910" height="219" key="GridCell.Tab.1.center/0.23.1280.714@0.23.1280.714" timestamp="1596569657389" />
-    <state width="910" height="219" key="GridCell.Tab.1.left" timestamp="1596569657389">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state width="1239" height="297" key="GridCell.Tab.1.left" timestamp="1596800226138">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1239" height="297" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1596800226138" />
     <state width="910" height="219" key="GridCell.Tab.1.left/0.23.1280.714@0.23.1280.714" timestamp="1596569657389" />
-    <state width="910" height="219" key="GridCell.Tab.1.right" timestamp="1596569657390">
-      <screen x="0" y="23" width="1280" height="714" />
+    <state width="1239" height="297" key="GridCell.Tab.1.right" timestamp="1596800226139">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state width="1239" height="297" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1596800226139" />
     <state width="910" height="219" key="GridCell.Tab.1.right/0.23.1280.714@0.23.1280.714" timestamp="1596569657390" />
     <state x="228" y="261" key="Performance.Activity.Monitor" timestamp="1596539006005">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="261" key="Performance.Activity.Monitor/0.0.1280.800@0.0.1280.800" timestamp="1596539006005" />
-    <state x="191" y="23" width="937" height="716" key="SettingsEditor" timestamp="1596627112038">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state x="266" y="0" width="982" height="709" key="SettingsEditor" timestamp="1596800525869">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="266" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1596800525869" />
+    <state x="266" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1596799784792" />
     <state x="191" y="23" width="937" height="714" key="SettingsEditor/0.23.1280.714@0.23.1280.714" timestamp="1596566561430" />
     <state x="191" y="23" width="937" height="716" key="SettingsEditor/0.23.1280.716@0.23.1280.716" timestamp="1596627112038" />
     <state x="294" y="61" width="670" height="678" key="search.everywhere.popup" timestamp="1596642359695">
