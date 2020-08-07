@@ -1,10 +1,6 @@
-import com.jumbuna.algs.HeapSort;
-import com.jumbuna.algs.InsertionSort;
-import com.jumbuna.algs.MergeSort;
-import com.jumbuna.ds.HashMap;
-import com.jumbuna.ds.Queue;
-import com.jumbuna.ds.Stack;
-import com.jumbuna.ds.Vector;
+import com.jumbuna.algs.*;
+import com.jumbuna.ds.*;
+
 
 import java.util.Arrays;
 
