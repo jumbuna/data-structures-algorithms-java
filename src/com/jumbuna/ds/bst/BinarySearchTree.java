@@ -9,7 +9,7 @@ import com.jumbuna.ds.Vector;
 
 public abstract  class BinarySearchTree <T extends Comparable<T>> {
 	public BinarySearchTreeNode<T> root;
-	private BinarySearchTreeNode<T> sentinel;
+	BinarySearchTreeNode<T> sentinel;
 	public int nodeCount;
 
 	public abstract void insert(T element);
