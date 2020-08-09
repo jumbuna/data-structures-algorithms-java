@@ -34,8 +34,6 @@ public class RedBlackTree <T extends Comparable<T>> extends BinarySearchTree<T> 
         }
     }
 
-//    private RedBlackNode<T> sentinel = new RedBlackNode<>();
-
     RedBlackTree() {
         super(null);
         sentinel = new RedBlackNode<>();
