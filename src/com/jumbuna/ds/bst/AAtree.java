@@ -49,16 +49,16 @@ public class AAtree <T extends Comparable<T>> extends BinarySearchTree<T>  {
 			}else {
 				parent.rightChild = candidate;
 			}
-			return;
+		} else {
+			if(candidate.element.compareTo(element) > 0) {
+				insert(candidate.leftChild, candidate, element);
+			}else {
+				insert(candidate.rightChild, candidate, element);
+			}
 		}
-		
-		if(candidate.element.compareTo(element) > 0) {
-			insert(candidate.leftChild, candidate, element);
-		}else {
-			insert(candidate.rightChild, candidate, element);
-		}
-		
+		BinarySearchTreeNode<T> temp = candidate.parent;
 		skew((AAnode<T>) candidate);
+		candidate = candidate.parent == temp ? candidate : candidate.parent;
 		split((AAnode<T>) candidate);
 	}
 	
@@ -111,7 +111,9 @@ public class AAtree <T extends Comparable<T>> extends BinarySearchTree<T>  {
 		if(compare > 0) remove(candidate.leftChild, element);
 		else remove(candidate.rightChild, element);
 		updateLevel((AAnode<T>) candidate);
+		BinarySearchTreeNode<T> temp = candidate.parent;
 		skew((AAnode<T>) candidate);
+		candidate = candidate.parent == temp ? candidate : candidate.parent;
 		split((AAnode<T>) candidate);
 	}
 	
