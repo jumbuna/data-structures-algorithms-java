@@ -13,10 +13,12 @@ public class SplayTree <T extends Comparable<T>> extends BinarySearchTree<T> {
 	
 	public void insert(T element) {
 		insert(root, root, element);
+		++nodeCount;
 	}
 	
 	public void remove(T element) {
 		if(contains(element)) {
+			//split and join
 			BinarySearchTreeNode<T> temp = root.rightChild;
 			if(root.leftChild != null) {
 				root = root.leftChild;
@@ -27,6 +29,7 @@ public class SplayTree <T extends Comparable<T>> extends BinarySearchTree<T> {
 				root = temp;
 				temp.parent = null;
 			}
+			--nodeCount;
 		}
 	}
 	
