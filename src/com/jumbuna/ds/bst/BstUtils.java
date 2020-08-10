@@ -15,6 +15,12 @@ public class BstUtils {
 		}
 		return leftChild.element;
 	}
+	public static <T extends Comparable<T>> T postOrderSuccessor(BinarySearchTreeNode<T> rightChild, BinarySearchTreeNode<T> sentinel) {
+		while(rightChild.leftChild != sentinel) {
+			rightChild = rightChild.leftChild;
+		}
+		return rightChild.element;
+	}
 
 	public static <T extends Comparable<T>> void TreeTraversal(TraversalOrder order, BinarySearchTreeNode<T> sentinel, Vector<T> vector, BinarySearchTreeNode<T> startingNode) {
 		switch (order) {

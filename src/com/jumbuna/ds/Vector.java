@@ -100,4 +100,17 @@ public class Vector<T> {
             array[i] = element;
         }
     }
+    
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("[ ");
+        for(int i = 0; i < currentIndex-1; i++) {
+            builder.append(""+array[i]+", ");
+        }
+        if(currentIndex > 0){
+            builder.append(array[currentIndex-1]);
+        }
+        builder.append("]");
+        return builder.toString();
+    }
 }

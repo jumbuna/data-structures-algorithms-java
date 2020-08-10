@@ -79,4 +79,19 @@ public class LinkedList<T> {
     public boolean empty() {
         return nodeCount == 0;
     }
+
+    public void reverse() {
+        Node temp = tail;
+        tail = reverseNode(head);
+        tail.next = null;
+        head = temp;
+    }
+
+    private Node reverseNode(Node node) {
+        if(node.next == null) {
+            return node;
+        }
+        reverseNode(node.next).next = node;
+        return node;
+    }
 }

@@ -9,7 +9,7 @@ import java.util.*;
 
 public class AAtree <T extends Comparable<T>> extends BinarySearchTree<T>  {
 	
-	AAtree() {
+	public AAtree() {
 		super(null);
 	}
 	private class AAnode <K extends Comparable<K>> extends BinarySearchTreeNode<K> {
