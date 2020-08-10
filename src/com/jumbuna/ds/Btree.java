@@ -275,21 +275,48 @@ public class Btree <K extends Comparable<K>, V> {
 		return keyCount;
 	}
 	
+	public V getValue(K key) {
+		if(size() == 0) return null;
+		BtreeNode temp = root;
+		while(temp.children.size() > 0) {
+			if(temp.keys.contains(key)) {
+				return temp.values.get(key);
+			} else {
+				temp = successorChild(temp, key);
+			}
+		}
+		return temp.values.get(key);
+	}
+	
+	public boolean contains(K key) {
+		if(size() == 0) {
+			return false;
+		}
+		BtreeNode temp = root;
+		while(temp.children.size() > 0) {
+			if(temp.keys.contains(key)) {
+				return true;
+			} else {
+				temp = successorChild(temp, key);
+			}
+		}
+		return temp.keys.contains(key);
+	}
+	
 	public static void main(String[] args) {
 		Btree<Integer,Integer> tree = new Btree<>(3);
 		Scanner scan = new Scanner(System.in);
 		while(tree.size() < 10) {
 			System.out.print(">>> ");
 			int x = scan.nextInt();
-			tree.insert(x, x);
-			tree.printTree();
+			tree.insert(x, x*x);
 		}
 		System.out.println("remove: ");
 		while(tree.size() > 0) {
 			System.out.print(">>> ");
 			int x = scan.nextInt();
+			System.out.println(tree.getValue(x));
 			tree.remove(x);
-			tree.printTree();
 		}
 	}
 }
