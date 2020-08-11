@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0b268c-9f81-4091-85e0-0fc2dd7d68ed" name="Default Changelist" comment="RedBlackTree implementation">
+      <change afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/BPlusTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jumbuna/ds/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/BstUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/BstUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jumbuna/ds/bst/RedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +60,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.22183909" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.AAtree">
+  <component name="RunManager" selected="Application.BPlusTree">
     <configuration name="AAtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jumbuna.ds.bst.AAtree" />
       <module name="dsAlgJava" />
@@ -74,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="BPlusTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jumbuna.ds.BPlusTree" />
       <module name="dsAlgJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BPlusTree" />
         <item itemvalue="Application.AAtree" />
         <item itemvalue="Application.RedBlackTree" />
         <item itemvalue="Application.AvlTree" />
         <item itemvalue="Application.UnbalancedBst" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,39 +147,40 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="390" y="243" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.800@0.0.1280.800" timestamp="1596921069527" />
-    <state x="326" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1596616962309">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state x="326" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1597087424484">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state x="326" y="89" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709@0.23.1280.709" timestamp="1597087424484" />
     <state x="326" y="90" key="#com.intellij.ide.util.MemberChooser/0.23.1280.716@0.23.1280.716" timestamp="1596616962309" />
     <state x="347" y="82" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596810487014">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="347" y="82" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1596810487014" />
-    <state width="1259" height="218" key="GridCell.Tab.0.bottom" timestamp="1596989708110">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1597133584439">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1280" height="273" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596892480162" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597133584439" />
     <state width="1259" height="218" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1596989708110" />
     <state width="910" height="219" key="GridCell.Tab.0.bottom/0.23.1280.714@0.23.1280.714" timestamp="1596569657388" />
     <state width="879" height="265" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1596647522663" />
-    <state width="1259" height="218" key="GridCell.Tab.0.center" timestamp="1596989708109">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1597133584437">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1280" height="273" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596892480161" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597133584437" />
     <state width="1259" height="218" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1596989708109" />
     <state width="910" height="219" key="GridCell.Tab.0.center/0.23.1280.714@0.23.1280.714" timestamp="1596569657387" />
     <state width="879" height="265" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
-    <state width="1259" height="218" key="GridCell.Tab.0.left" timestamp="1596989708108">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1597133584437">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1280" height="273" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596892480160" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597133584437" />
     <state width="1259" height="218" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1596989708108" />
     <state width="910" height="219" key="GridCell.Tab.0.left/0.23.1280.714@0.23.1280.714" timestamp="1596569657386" />
     <state width="879" height="265" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
-    <state width="1259" height="218" key="GridCell.Tab.0.right" timestamp="1596989708109">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1597133584438">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1280" height="273" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596892480162" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597133584438" />
     <state width="1259" height="218" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1596989708109" />
     <state width="910" height="219" key="GridCell.Tab.0.right/0.23.1280.714@0.23.1280.714" timestamp="1596569657387" />
     <state width="879" height="265" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1596647522662" />
@@ -208,22 +212,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="261" key="Performance.Activity.Monitor/0.0.1280.800@0.0.1280.800" timestamp="1596539006005" />
-    <state x="266" y="0" width="982" height="709" key="SettingsEditor" timestamp="1596892810426">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="266" y="23" width="982" height="709" key="SettingsEditor" timestamp="1597087153461">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="266" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1596892810426" />
-    <state x="266" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1596799784792" />
+    <state x="266" y="23" width="982" height="709" key="SettingsEditor/0.23.1280.709@0.23.1280.709" timestamp="1597087153461" />
     <state x="191" y="23" width="937" height="714" key="SettingsEditor/0.23.1280.714@0.23.1280.714" timestamp="1596566561430" />
     <state x="191" y="23" width="937" height="716" key="SettingsEditor/0.23.1280.716@0.23.1280.716" timestamp="1596627112038" />
     <state x="250" y="106" key="Vcs.Push.Dialog.v2" timestamp="1596880603495">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="250" y="106" key="Vcs.Push.Dialog.v2/0.23.1280.709@0.23.1280.709" timestamp="1596880603494" />
-    <state x="294" y="61" width="670" height="672" key="search.everywhere.popup" timestamp="1596880595224">
+    <state x="294" y="61" width="670" height="672" key="search.everywhere.popup" timestamp="1597087070144">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="294" y="43" width="670" height="758" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1596878009817" />
-    <state x="294" y="61" width="670" height="672" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1596880595224" />
+    <state x="294" y="61" width="670" height="672" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1597087070144" />
     <state x="294" y="61" width="670" height="676" key="search.everywhere.popup/0.23.1280.714@0.23.1280.714" timestamp="1596563816656" />
     <state x="294" y="61" width="670" height="678" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1596642359695" />
   </component>

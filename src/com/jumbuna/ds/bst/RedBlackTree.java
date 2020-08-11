@@ -34,7 +34,7 @@ public class RedBlackTree <T extends Comparable<T>> extends BinarySearchTree<T> 
         }
     }
 
-    RedBlackTree() {
+    public RedBlackTree() {
         super(null);
         sentinel = new RedBlackNode<>();
         root = null;

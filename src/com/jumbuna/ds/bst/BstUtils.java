@@ -39,7 +39,7 @@ public class BstUtils {
 	}
 
 	private static <T extends Comparable<T>> void inOrder(Vector<T> vector, BinarySearchTreeNode<T> startingNode, BinarySearchTreeNode<T> sentinel) {
-		if(startingNode != sentinel) {
+		if(startingNode != sentinel && startingNode != null) {
 			inOrder(vector, startingNode.leftChild, sentinel);
 			vector.insert(startingNode.element);
 			inOrder(vector, startingNode.rightChild, sentinel);
@@ -47,7 +47,7 @@ public class BstUtils {
 	}
 
 	private static <T extends Comparable<T>> void preOrder(Vector<T> vector, BinarySearchTreeNode<T> startingNode, BinarySearchTreeNode<T> sentinel) {
-		if(startingNode != sentinel) {
+		if(startingNode != sentinel && startingNode != null) {
 			vector.insert(startingNode.element);
 			preOrder(vector, startingNode.leftChild, sentinel);
 			preOrder(vector, startingNode.rightChild, sentinel);
@@ -55,7 +55,7 @@ public class BstUtils {
 	}
 
 	private static <T extends Comparable<T>> void postOrder(Vector<T> vector, BinarySearchTreeNode<T> startingNode, BinarySearchTreeNode<T> sentinel) {
-		if(startingNode != sentinel) {
+		if(startingNode != sentinel && startingNode != null) {
 			postOrder(vector, startingNode.leftChild, sentinel);
 			postOrder(vector, startingNode.rightChild, sentinel);
 			vector.insert(startingNode.element);
