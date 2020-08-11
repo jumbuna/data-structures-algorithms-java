@@ -39,7 +39,7 @@ public class BPlusTree <K extends Comparable<K>, V> {
     BpNode root = null;
     int keyCount = 0;
     int order;
-    BpNode firstLeaf;
+    BpNode firstLeaf = null;
 
     BPlusTree(int order) {
         this.order = order;
@@ -84,7 +84,7 @@ public class BPlusTree <K extends Comparable<K>, V> {
 
     private void insert(BpNode candidate, K key, V value) {
         if(candidate == null) {
-            root = new BpNode(null);
+            firstLeaf = root = new BpNode(null);
             root.insert(key, value);
             return;
         }
@@ -388,18 +388,40 @@ public class BPlusTree <K extends Comparable<K>, V> {
         return keyCount;
     }
 
+    public V getValue(K key) {
+        BpNode temp = firstLeaf;
+        while(temp != null) {
+            if(temp.keys.contains(key)) {
+                return temp.values.get(key);
+            }
+            temp = temp.nextLeaf;
+        }
+        return null;
+    }
+
+    public boolean contains(K key) {
+        BpNode temp = firstLeaf;
+        while(temp != null) {
+            if(temp.keys.contains(key)) return true;
+            else temp = temp.nextLeaf;
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
-        BPlusTree<Integer, Integer> tree = new BPlusTree<>(3);
+        BPlusTree<Integer, Integer> tree = new BPlusTree<>(4);
         Scanner scanner = new Scanner(System.in);
         while(tree.size() < 10) {
             System.out.print(">>> ");
-            tree.insert(scanner.nextInt(), scanner.nextInt());
+            tree.insert(scanner.nextInt(), scanner.nextInt()*5);
             tree.printTree();
         }
         System.out.println("remove: ");
         while(tree.size() > 0) {
             System.out.print(">>> ");
-            tree.remove(scanner.nextInt());
+            int x = scanner.nextInt();
+            System.out.println(tree.getValue(x));
+            tree.remove(x);
             tree.printTree();
         }
     }
