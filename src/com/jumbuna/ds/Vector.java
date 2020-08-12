@@ -10,7 +10,7 @@ public class Vector<T> {
     private int capacity;
     private int threshold;
     final private double loadFactor = .67;
-    T[] array = null;
+    public T[] array = null;
 
     public Vector(int capacity) {
         this.capacity = capacity;

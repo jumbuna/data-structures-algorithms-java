@@ -23,6 +23,7 @@ public class HashMap<K, V> {
         capacity = 32;
         threshold = (int) (capacity * loadFactor);
         nodeCount = 0;
+        table = new Object[capacity];
     }
 
     private void resize() {
@@ -55,9 +56,6 @@ public class HashMap<K, V> {
     }
 
     public void insert(K key, V value) {
-        if(table == null) {
-            table = new Object[capacity];
-        }
         int i = indexOf(key);
         if(i != -1) {
             ((MapNode)table[i]).value = value;
@@ -100,6 +98,9 @@ public class HashMap<K, V> {
         }
     }
 
+    public boolean contains(K key) {
+        return indexOf(key) != -1;
+    }
     public int size() {
         return nodeCount;
     }
